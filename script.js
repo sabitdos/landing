@@ -1,4 +1,3 @@
-<script
       src = "https://unpkg.com/vue@3/dist/vue.global.js" >
     if ("serviceWorker" in navigator) {
         self.addEventListener("load", async () => {
@@ -7,5 +6,4 @@
                 const reg = await container.register("sw.js");
             }
         });
-    }>
-</script>
+    }
